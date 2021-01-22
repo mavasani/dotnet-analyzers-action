@@ -7,6 +7,7 @@ namespace ClassLibrary1
         private int f;
         void M()
         {
+            
         }
     }
 }
