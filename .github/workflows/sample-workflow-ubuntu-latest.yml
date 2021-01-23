@@ -31,5 +31,6 @@ jobs:
 
       # Run open source static analysis tools
     - name: Run .NET Analyzers
-      uses: github/dotnet-analyzers-action@v1
+      uses: github/ossar-action@v1
+
       id: dotnet-analyzers

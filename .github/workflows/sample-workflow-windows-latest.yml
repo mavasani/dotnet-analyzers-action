@@ -31,5 +31,6 @@ jobs:
 
       # Run .NET Analyzers
     - name: Run .NET Analyzers
-      uses: github/dotnet-analyzers-action@v1
+      uses: github/ossar-action@v1
+
       id: dotnet-analyzers
